@@ -1,5 +1,6 @@
 // Adding nametag labels to all popup-able leaflet layers
-const sourceTypes = ['Layer','Circle','CircleMarker','Marker','Polyline','Polygon','ImageOverlay','VideoOverlay','SVGOverlay','Rectangle','LayerGroup','FeatureGroup','GeoJSON']
+//const sourceTypes = ['Layer','Circle','CircleMarker','Marker','Polyline','Polygon','ImageOverlay','VideoOverlay','SVGOverlay','Rectangle','LayerGroup','FeatureGroup','GeoJSON']
+const sourceTypes = ['Circle','CircleMarker','Marker','Polyline','Polygon','Rectangle']
 
 sourceTypes.forEach( type => {
    L[type].include({
