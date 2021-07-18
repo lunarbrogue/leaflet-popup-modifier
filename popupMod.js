@@ -86,7 +86,7 @@ L.Popup.include({
          removeButton.innerHTML = `Remove this ${nametag}`;
          var editButton = this._editButton = L.DomUtil.create('a', prefix + '-edit-button', userActionButtons);
          editButton.href = '#edit';
-         editButton.innerHTML = 'Edit';
+         editButton.innerHTML = 'Edit Yay!';
          this.options.minWidth = 160;
 
          L.DomEvent.on(removeButton, 'click', this._onRemoveButtonClick, this);
