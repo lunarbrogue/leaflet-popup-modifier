@@ -174,7 +174,7 @@ L.Popup.include({
       var inputField = this._inputField;
       if (inputField.innerHTML.length > 0){
          this.setContent(inputField.innerHTML);
-         alert(inputField.innerHTML);
+         console.log(inputField.innerHTML);
       } else {
          alert('Enter something');
       };
