@@ -86,7 +86,7 @@ L.Popup.include({
          removeButton.innerHTML = `Remove this ${nametag}`;
          var editButton = this._editButton = L.DomUtil.create('a', prefix + '-edit-button', userActionButtons);
          editButton.href = '#edit';
-         editButton.innerHTML = 'Edit';
+         editButton.innerHTML = 'Edit Yay!';
          this.options.minWidth = 160;
 
          L.DomEvent.on(removeButton, 'click', this._onRemoveButtonClick, this);
@@ -151,7 +151,7 @@ L.Popup.include({
       cancelButton.innerHTML = 'Cancel';
       var saveButton = this._saveButton = L.DomUtil.create('a', 'leaflet-popup-input-save', inputActions);
       saveButton.href = "#save";
-      saveButton.innerHTML = 'Save Yay!';
+      saveButton.innerHTML = 'Save';
 
       L.DomEvent.on(cancelButton, 'click', this._onCancelButtonClick, this)
       L.DomEvent.on(saveButton, 'click', this._onSaveButtonClick, this)
