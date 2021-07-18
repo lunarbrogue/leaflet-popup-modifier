@@ -173,7 +173,8 @@ L.Popup.include({
    _onSaveButtonClick: function (e) {
       var inputField = this._inputField;
       if (inputField.innerHTML.length > 0){
-         this.setContent(inputField.innerHTML)
+         this.setContent(inputField.innerHTML);
+         alert(inputField.innerHTML);
       } else {
          alert('Enter something');
       };
