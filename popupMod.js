@@ -151,7 +151,7 @@ L.Popup.include({
       cancelButton.innerHTML = 'Cancel';
       var saveButton = this._saveButton = L.DomUtil.create('a', 'leaflet-popup-input-save', inputActions);
       saveButton.href = "#save";
-      saveButton.innerHTML = 'Save';
+      saveButton.innerHTML = 'Save Yay!';
 
       L.DomEvent.on(cancelButton, 'click', this._onCancelButtonClick, this)
       L.DomEvent.on(saveButton, 'click', this._onSaveButtonClick, this)
